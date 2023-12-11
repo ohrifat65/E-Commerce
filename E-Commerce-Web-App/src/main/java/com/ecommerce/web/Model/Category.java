@@ -11,13 +11,15 @@ import jakarta.persistence.Id;
 @Component
 @Entity
 public class Category {
+
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name="category_id")
 	private int Id;
 
 	private String CategoryName;
-
+String s;
 	public Category() {
 		super();
 	}
