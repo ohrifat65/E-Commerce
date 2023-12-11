@@ -19,7 +19,7 @@ public class Category {
 	private int Id;
 
 	private String CategoryName;
-String s;
+
 	public Category() {
 		super();
 	}
